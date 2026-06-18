@@ -1,0 +1,6 @@
+<launch>
+       <!-- Include the first sub-launch file -->
+    <include file="$(find lab_codes)/../driver/yolov5_ros/yolo_run/launch/yolov5.launch">
+    </include>
+
+</launch>

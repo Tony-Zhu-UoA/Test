@@ -1,0 +1,12 @@
+<launch>
+    <node pkg="lab_codes" type="full_body_publisher.py" name="body_tracking_processing" output="screen">
+    </node>
+
+
+    <node pkg="lab_codes" type="proximity_check.py" name="obstacle_proxmity_check" output="screen">
+    </node>
+
+
+    <node pkg="lab_codes" type="joint_position_movement.py" name="avoidance_controller" output="screen">
+    </node>
+</launch>
